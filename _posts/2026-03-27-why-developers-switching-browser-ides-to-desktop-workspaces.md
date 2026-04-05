@@ -57,11 +57,15 @@ The switch from browser IDEs to desktop workspaces is not about nostalgia for na
 
 Running Claude Code in one terminal, Codex in another, and a dev server in a third is the baseline workflow in 2026. Desktop workspaces that support named terminals, status tracking, and session persistence handle this natively. Browser-based terminals struggle with process management at this scale.
 
+![1DevTool embedded browser with DevTools panel open alongside the development workspace](/assets/images/1devtool/embedded-browser.jpg)
+
 ### Integrated Developer Tools
 
 The modern development loop touches terminals, an API client, a database, a browser preview, and environment configuration. Consolidating these into a single application — rather than running them as separate tabs in a browser or as standalone apps — reduces context switching dramatically.
 
 ### Persistent Workspace State
+
+![1DevTool session persistence restoring terminal sessions, database connections, and workspace layout after restart](/assets/images/1devtool/session-persistence.jpg)
 
 Close your laptop, open it tomorrow, and everything is exactly where you left it. Every terminal session preserved. Every database connection remembered. Every layout arrangement intact. Desktop applications with proper state management deliver this reliably. Cloud IDEs depend on their infrastructure keeping your workspace alive, which is not always guaranteed.
 

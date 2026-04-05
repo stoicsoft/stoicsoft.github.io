@@ -49,9 +49,13 @@ If you need www-to-non-www redirects (or vice versa), there is a toggle for that
 
 ### Step 4: Security Headers
 
+![Server Compass domain and security settings with DNS verification, routing rules, and security header configuration](/assets/images/server-compass/feature-domain-security.jpg)
+
 Once your domain is active, you can configure security headers directly in Server Compass. CORS policies, HSTS, X-Frame-Options, and other protective headers are available through a visual interface. These get applied at the Traefik level, so they protect your application regardless of what framework it runs on.
 
 ## Part 2: SSL Certificates With Let's Encrypt
+
+![Server Compass SSL certificate management showing Let's Encrypt auto-provisioning and certificate status](/assets/images/server-compass/feature-ssl.jpg)
 
 ### Automatic SSL (The Default)
 

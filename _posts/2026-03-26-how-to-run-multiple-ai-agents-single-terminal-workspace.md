@@ -26,6 +26,8 @@ The problems compound:
 - **Session loss on restart.** Close your laptop, and your agent conversations vanish. Tomorrow morning, you spend 15 minutes reconstructing context that your AI agent had already built up.
 - **Manual context relay.** Agent A finishes a task and produces output that Agent B needs. You copy from one terminal and paste into another, becoming a human message bus between your AI tools.
 
+![1DevTool multi-agent terminal workspace with multiple AI sessions running simultaneously in named, color-coded tabs](/assets/images/1devtool/multi-agent-terminals.jpg)
+
 ## Setting Up a Proper Multi-Agent Workspace
 
 A well-organized multi-agent workspace needs four things: named and color-coded terminals, layout flexibility, session persistence, and some form of agent coordination.
@@ -67,6 +69,8 @@ Session persistence means:
 ### Step 4: The Terminal Dashboard
 
 Once you are running six or more terminals across multiple projects, you need a bird's-eye view. A terminal dashboard shows you the status of every terminal in every project without clicking through tabs.
+
+![1DevTool terminal dashboard showing a Kanban-style board with terminal statuses organized by Idle, Running, and Needs Review columns](/assets/images/1devtool/terminal-dashboard.jpg)
 
 Think of it as a Kanban board for your terminals. Columns for "Idle," "Running," and "Needs Review." At a glance, you know which agents are done, which are still working, and which need your input. This alone saves the 10 to 15 minutes per hour that developers typically waste polling terminal states.
 

@@ -63,11 +63,15 @@ Let me walk through three common self-hosting tasks to show what desktop-first s
 
 ### Deploying a New App
 
+![Server Compass template library showing pre-configured Docker app templates for one-click deployment](/assets/images/server-compass/feature-templates.jpg)
+
 Open Server Compass, click "New App," and choose your source: a GitHub repo, a Docker template, a registry image, or a local folder. For GitHub repos, OAuth lets you pick any repository (including private ones) without configuring deploy keys or webhooks.
 
 The app detects your framework, generates an appropriate Dockerfile if needed, and lets you configure environment variables, domains, and build settings. Click deploy, and you get real-time build logs streamed to your desktop. The entire process takes two to five minutes.
 
 ### Adding a Database
+
+![Server Compass stack wizard guiding through database and service selection for a new deployment](/assets/images/server-compass/feature-stack-wizard.jpg)
 
 Click the templates tab, filter to databases, and pick from PostgreSQL, MySQL, MariaDB, MongoDB, Redis, Elasticsearch, ClickHouse, and dozens more. Each template comes pre-configured with persistent storage, sensible defaults, and post-deployment guidance. The built-in database management UI lets you run queries, browse tables, and import or export data without installing a separate database client.
 

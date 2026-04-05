@@ -39,6 +39,8 @@ Tool consolidation does not mean compromising on capability. It means having the
 
 Postman is excellent software. But opening it is a context switch. You leave your development environment, navigate to a separate application, find the right collection, and construct your request. When you need to test an endpoint that your AI agent just created, you have to copy the URL and any auth tokens from your terminal into Postman manually.
 
+![1DevTool HTTP request builder with method selection, headers, body editor, and formatted JSON response](/assets/images/1devtool/http-request-builder.jpg)
+
 A built-in HTTP client lives right next to your terminal and code. The moment your AI agent creates a new endpoint, you can test it without switching windows. Request history is saved per project. Authentication tokens are at hand. The response inspector formats JSON, shows headers, and displays latency metrics.
 
 [1DevTool](https://1devtool.com) includes a full API request builder with method selection, custom headers, body editor, auth support, and multi-tab request workspaces. It saves up to 50 requests per project and lets you copy any request as cURL with one click.
@@ -47,7 +49,11 @@ A built-in HTTP client lives right next to your terminal and code. The moment yo
 
 DBeaver is a powerful tool that supports dozens of databases. It is also a heavy Java application that consumes significant memory and takes time to start up. For many developers, 80% of their database interaction is running quick queries, checking table schemas, and previewing data — tasks that do not require DBeaver's full feature set.
 
+![1DevTool multi-database support showing connections to PostgreSQL, MongoDB, Redis, and other database engines in one interface](/assets/images/1devtool/multi-database-support.jpg)
+
 A built-in database client handles these common tasks in a lightweight interface that is always available. Connect to your database, browse schemas visually, write queries with syntax highlighting, and view results in a sortable, exportable grid.
+
+![1DevTool query editor with syntax highlighting, schema browser, and sortable results grid](/assets/images/1devtool/query-editor.jpg)
 
 1DevTool supports 13 database engines: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, ClickHouse, Cassandra, SurrealDB, Weaviate, InfluxDB, Kafka, CouchDB, and Microsoft SQL Server. One connection interface for all of them. Your database client starts in milliseconds, not seconds, because it is already running as part of your workspace.
 

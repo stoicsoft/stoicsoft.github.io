@@ -13,6 +13,8 @@ These tasks are small enough that they do not feel worth automating, but frequen
 
 Folder monitoring is the solution. You point a tool at a folder, tell it what to do with new files, and walk away. Every file that lands in that folder gets processed automatically, instantly, without a single click.
 
+![1FileTool desktop app showing folder monitoring and automated file processing dashboard](/assets/images/1filetool/og_image.jpg)
+
 ## How Folder Monitoring Works
 
 The concept is simple. A desktop tool watches a specified directory for new files. When a file appears, the tool applies a predefined operation and outputs the result. The entire cycle happens automatically.

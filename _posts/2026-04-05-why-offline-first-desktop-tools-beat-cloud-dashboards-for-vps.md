@@ -63,11 +63,15 @@ Running a management dashboard on the same VPS it manages creates a circular dep
 
 A web dashboard renders in a browser, which means JavaScript execution overhead, network latency for every interaction, and limited access to system resources. A native desktop application runs compiled code with direct access to your OS file system, keychain, and network stack.
 
+![Server Compass built-in SSH terminal connected to a VPS with real-time command execution](/assets/images/server-compass/feature-terminal.jpg)
+
 In practical terms, this means:
 
 - **SSH terminal performance** -- A native terminal implementation has lower latency than a browser-based terminal running over WebSocket. The difference is perceptible when typing commands.
 - **File operations** -- Uploading files to your server through a native app uses optimized SFTP transfers. A browser-based uploader adds HTTP overhead on top of the SSH transfer.
 - **Large log files** -- Streaming and searching through container logs is faster when the rendering engine is native rather than DOM-based.
+
+![Server Compass resource monitor displaying real-time CPU, memory, and disk usage graphs for a VPS](/assets/images/server-compass/feature-resource-monitor.jpg)
 
 ### Zero Server Overhead
 

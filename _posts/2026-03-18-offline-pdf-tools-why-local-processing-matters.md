@@ -11,6 +11,8 @@ If you work with PDFs regularly, you have probably reached for an online tool at
 
 Every time you upload a PDF to an online service, that file travels across the internet to a server you do not control. For a casual flyer or a recipe, that might be fine. For a contract, a tax return, or a client deliverable, it is a different story entirely.
 
+![1FileTool desktop app showing offline PDF tools with merge, compress, and convert capabilities](/assets/images/1filetool/og_image.jpg)
+
 ## The Problem with Cloud-Based PDF Tools
 
 Cloud PDF tools like Smallpdf, iLovePDF, and Adobe Acrobat Online all follow the same model: upload your file, process it on their servers, and download the result. This workflow introduces several issues that developers and professionals should consider seriously.

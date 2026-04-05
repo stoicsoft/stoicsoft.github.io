@@ -52,6 +52,8 @@ The operator is the coordinating intelligence that manages the workflow. It read
 
 An operator can be another AI agent (typically the most capable one, like Claude Code) or a rule-based system that follows a predefined workflow template. The operator pattern keeps you out of the loop for routine coordination while letting you intervene when judgment is needed.
 
+![1DevTool Docker container management panel showing running containers with status indicators and resource usage](/assets/images/1devtool/docker-containers.jpg)
+
 ## Common Orchestration Patterns
 
 Several patterns have emerged as developers have adopted multi-agent workflows:
@@ -127,6 +129,8 @@ Agents make mistakes. An implementation might break existing functionality. A te
 Robust orchestration includes pause points where you can inspect intermediate results before the workflow continues. The ability to pause a running workflow, examine what has been produced, correct any issues manually, and then resume from the pause point is essential for production-quality work.
 
 Without pause-and-resume, your only options when something goes wrong are to let the workflow finish (wasting time and tokens on work built on a bad foundation) or cancel and start over (losing all progress).
+
+![1DevTool multi-agent terminals with multiple AI coding agents running in parallel during an orchestrated workflow](/assets/images/1devtool/multi-agent-terminals.jpg)
 
 ## Getting Started with Agent Orchestration
 

@@ -46,6 +46,8 @@ Here is how deploying a Docker app actually works:
 
 The entire deployment pipeline runs from your desktop to your server over SSH. When you close the app, your VPS is just running Docker containers with a Traefik reverse proxy. Nothing else.
 
+![Server Compass one-click deploy interface showing deployment options for Docker containers](/assets/images/server-compass/1-click-deploy.jpg)
+
 ## Walking Through a Real Deployment
 
 Let us deploy a Next.js application from GitHub to a $5 Hetzner VPS.
@@ -57,6 +59,8 @@ Open Server Compass, click "Add Server," and enter your VPS IP address. You can 
 ### Step 2: Deploy From GitHub
 
 Click "New App" and choose "Deploy from GitHub." Server Compass uses GitHub OAuth so you can select any repo from your account -- including private repositories and organizations. Pick your branch, and the app auto-detects your framework and generates an appropriate Dockerfile.
+
+![Server Compass Docker Compose editor with environment variables and deployment configuration](/assets/images/server-compass/feature-compose-editor.jpg)
 
 ### Step 3: Configure the Deployment
 

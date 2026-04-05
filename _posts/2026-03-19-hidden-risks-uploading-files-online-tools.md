@@ -13,6 +13,8 @@ But what happened to your original file? Where is it now? Who has access to it? 
 
 These are questions that most people never ask, but the answers might change how you handle your files.
 
+![1FileTool desktop app showing privacy-first file processing dashboard with no cloud uploads required](/assets/images/1filetool/og_image.jpg)
+
 ## What Happens When You Upload a File
 
 When you use an online file tool, the typical workflow involves several steps that happen behind the scenes.

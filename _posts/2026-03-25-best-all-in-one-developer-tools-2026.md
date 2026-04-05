@@ -33,6 +33,8 @@ Desktop applications fell out of fashion during the "everything in the browser" 
 
 A new generation of desktop developer tools has emerged to address this reality. These are not just code editors with a terminal panel bolted on. They are full workspaces that integrate the tools developers actually use throughout the day.
 
+![1DevTool multi-project workspace showing multiple development projects organized in a single desktop application](/assets/images/1devtool/multi-project-workspace.jpg)
+
 ## What to Look for in an All-in-One Developer Tool
 
 When evaluating consolidated developer tools in 2026, these are the capabilities that matter most:
@@ -102,6 +104,8 @@ The pattern is clear. As AI agents become central to development workflows, the 
 - **One-time pricing** that does not scale with usage
 
 The browser is an excellent delivery mechanism for many things. But for professional development work in 2026 — especially AI-assisted development — a native desktop workspace removes friction that browser-based tools cannot.
+
+![1DevTool command palette providing quick access to all workspace features and actions](/assets/images/1devtool/command-palette.jpg)
 
 ## Choosing the Right Tool
 

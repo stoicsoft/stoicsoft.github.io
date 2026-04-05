@@ -43,6 +43,8 @@ Server Compass takes a fundamentally different approach from every other tool on
 - **Monitoring and alerts** -- Lightweight agent for CPU, memory, and disk tracking with configurable alert rules
 - **Security** -- AES-256-GCM encrypted credentials stored in your OS keychain, security audits, Fail2Ban management
 
+![Server Compass app dashboard showing deployed applications and their status](/assets/images/server-compass/feature-app-dashboard.jpg)
+
 **Why indie hackers love it:** Your $5 VPS runs only your apps. No dashboard consuming RAM in the background. The one-time $29 price means no monthly drain on your indie budget, and the tool pays for itself in the first month compared to any PaaS.
 
 **Trade-off:** Requires your laptop to be open for deployments (unless you set up GitHub Actions for auto-deploy). No web dashboard for mobile access.
@@ -149,6 +151,8 @@ Similar to RunCloud but with a more developer-focused approach. Ploi handles ser
 | Database UI | Built-in | Basic | Basic | No |
 | Cron management | Visual | Basic | No | No |
 | Offline access | Yes | No | No | No |
+
+![Server Compass server overview displaying system resources, uptime, and connected services](/assets/images/server-compass/feature-server-overview.jpg)
 
 ## Which One Should You Pick?
 

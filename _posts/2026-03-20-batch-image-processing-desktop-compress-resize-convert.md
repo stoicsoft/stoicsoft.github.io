@@ -11,6 +11,8 @@ If you have ever needed to compress 200 product photos for a website, resize a f
 
 Batch image processing on the desktop solves this by letting you drop an entire folder of images into a tool and get results in seconds. No uploads, no waiting for servers, no per-file limits. Here is how to approach common batch image tasks efficiently.
 
+![1FileTool desktop app showing batch image processing tools for compress, resize, and convert operations](/assets/images/1filetool/og_image.jpg)
+
 ## Why Batch Processing Matters
 
 The math on individual image processing is brutal. Assume each image takes 15 seconds to upload, 5 seconds to process on a server, and 10 seconds to download. That is 30 seconds per image. For 100 images, you are looking at 50 minutes of repetitive clicking and waiting. For 500 images, over four hours.

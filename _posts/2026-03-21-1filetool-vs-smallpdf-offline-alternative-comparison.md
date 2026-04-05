@@ -11,6 +11,8 @@ Smallpdf is one of the most popular online file tools, processing over a billion
 
 But the cloud-based model that makes Smallpdf convenient also introduces tradeoffs that matter more as your use case becomes more professional, more private, or more demanding. This comparison breaks down how Smallpdf stacks up against 1FileTool, a desktop alternative that processes everything offline.
 
+![1FileTool desktop app showing 245+ file tools across PDF, image, video, and audio categories](/assets/images/1filetool/og_image.jpg)
+
 ## Architecture: Cloud vs. Local
 
 The fundamental difference between these two tools is where your files are processed.
