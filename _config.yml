@@ -1,0 +1,14 @@
+title: StoicSoft
+description: Desktop Developer Tools for the AI Era
+url: "https://stoicsoft.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
